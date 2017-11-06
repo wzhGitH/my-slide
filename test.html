@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css" />
+    <script type="text/javascript" src="./swiper.js"></script>
+</head>
+
+<body class="yys-system">
+    <div id="swiper"></div>
+    <script type="text/javascript">
+        var dataList = [{
+            src: "./images/bg1.jpg",
+            name: "富强民主"
+        }, {
+            src: "./images/bg2.jpg",
+            name: "文明和谐"
+        }, {
+            src: "./images/bg3.jpg",
+            name: "自由平等"
+        }, {
+            src: "./images/bg4.jpg",
+            name: "公正法治"
+        }];
+        var options = {
+            dataList: dataList,
+            autoplay: 5000
+        };
+        MySwiper("swiper", options);
+    </script>
+</body>
+
+</html>
